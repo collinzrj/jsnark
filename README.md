@@ -3,7 +3,7 @@ Fork of jsnark for ZKMB development
 Usage 
 
 ```
-prove_r1cs_gg_ppzksnark.cpp \
+./jsnark/libsnark/build/libsnark/jsnark_interface/prove_r1cs_gg_ppzksnark \
 	path_to_arith.arith \
 	path_to_in.in \
 	output_file_name
