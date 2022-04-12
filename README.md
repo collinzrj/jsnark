@@ -1,5 +1,14 @@
 Fork of jsnark for ZKMB development
 
+Usage 
+
+```
+prove_r1cs_gg_ppzksnark.cpp \
+	path_to_arith.arith \
+	path_to_in.in \
+	output_file_name
+```
+
 ## jsnark
 
 This is a Java library for building circuits for preprocessing zk-SNARKs. The library uses libsnark as a backend (https://github.com/scipr-lab/libsnark), and can integrate circuits produced by the Pinocchio compiler (https://vc.codeplex.com/SourceControl/latest) when needed by the programmer. The code consists of two main parts:
