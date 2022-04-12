@@ -1,6 +1,6 @@
 Fork of jsnark for ZKMB development
 
-Usage 
+To generate a binary file of the proof with arith and input file, build the project as usual and run this command below
 
 ```
 ./jsnark/libsnark/build/libsnark/jsnark_interface/prove_r1cs_gg_ppzksnark \
